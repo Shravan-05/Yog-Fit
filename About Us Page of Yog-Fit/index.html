@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yog-Fit</title>
+    <style>
+          *{
+    margin: 0;
+    padding: 0;
+}
+        .typing-animation {
+            box-sizing: border-box;
+
+            overflow: hidden;
+            white-space: nowrap;
+            font-family: monospace;
+            display: inline-block;
+            vertical-align: bottom;
+            animation: typing 5s steps(40, end), blink-caret .75s step-end infinite;
+            height: 60rem;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 4vw; /* Responsive font size */
+        }
+        
+        @keyframes typing {
+            to { width: 100% }
+        }
+
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: white }
+        }
+      
+.link{
+    text-decoration: none;
+    font-size: 20px;
+}
+#topnav{
+    list-style: none;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+width:300px;
+}
+#bn
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid red;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#insta
+{
+    width: 30px;
+    height: 30px;
+
+}
+#a1
+{
+    text-decoration: none;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    font-size: 20px;
+    flex-wrap: nowrap;
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#logo
+{ 
+height: 70px;
+width:100px
+
+}
+#logo1
+{
+    height: 70px;
+width:100px  
+}
+#Nav-bar
+{
+display: flex;
+justify-content: space-around;
+}
+
+
+.i1
+{
+    position: absolute;
+    height: 60rem;
+    width: 100%;
+
+}
+.typing-animation{
+    position: absolute;
+    z-index: 10000;
+    color: White;
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.link::after
+    {
+        content: '';
+      background-color: rgb(255, 174, 0);
+      width: 0%;
+      height: 3px;
+        display: block;
+        transition: 1s ease-in-out;
+
+    }
+    .link:hover::after
+    {
+        content: '';
+        background-color: rgb(255, 174, 0);
+        width: 100%;
+      height: 3px;
+        display: block;
+    }
+    .typing-animation
+    {
+
+        position: absolute;
+        height: 60rem;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #bottomnav
+{
+    height: 19rem;
+    width: 100%;
+    border: 1px solid red;
+    background-color:rgb(66, 101, 124);
+    color: white;
+    z-index: 20000;
+}
+#home
+{ height:60rem;
+    width: 100%;
+    border: 1px solid rgb(0, 217, 255);
+}
+#cr
+{
+    font-size :15px;;
+    text-align: center;
+    width: 100%;
+}
+
+    @media screen and (max-width:400px) and (min-width:300px){
+    .link{
+        text-decoration: none;
+        font-size: 15px;
+    }
+    #topnav{
+        list-style: none;
+    display: flex;
+    align-items: center;
+    border:1px solid blue;
+    justify-content: space-evenly;
+    width:150px
+    }
+    #logo
+    { 
+    height: 50px;
+    width:50px
+    
+    }
+    #Nav-bar
+    {
+    display: flex;
+    border:1px solid red;
+    justify-content: space-around;
+    background-color: beige;
+    }
+}
+@media screen and (max-width:500px) and (min-width:400px){
+    .link{
+        text-decoration: none;
+        font-size: 18px;
+    }
+    #topnav{
+        list-style: none;
+    display: flex;
+    align-items: center;
+    border:1px solid blue;
+    justify-content: space-evenly;
+    width:200px
+    }
+    #logo
+    { 
+    height: 70px;
+    width:70px
+    
+    }
+    #Nav-bar
+    {
+    display: flex;
+    border:1px solid red;
+    justify-content: space-around;
+    background-color: beige;
+    }
+}
+
+@media screen and (max-width:600px) and (min-width:300px){
+
+    #home
+{ height:40rem;
+    width: 100%;
+    border: 1px solid rgb(0, 217, 255);
+}
+.typing-animation
+    {
+
+        position: absolute;
+        height: 40rem;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    
+    }
+.i1
+{
+    position: absolute;
+    height: 40rem;
+    width: 100%;
+
+}
+#bottomnav
+{
+    height: 18.5rem;
+    width: 100%;
+    border: 1px solid red;
+    background-color:rgb(66, 101, 124);
+    color: white;
+    z-index: 20000;
+}
+#cr
+{
+    width: 100%;
+    font-size: 12px;
+}
+}
+
+    </style>
+</head>
+<body>
+    <div id="Nav-bar">
+        <div id="img">
+            <img src="https://static.vecteezy.com/system/resources/previews/016/390/587/original/yoga-and-meditation-logo-free-png.png" id="logo">
+        </div>
+        <ul id="topnav">
+            <li><a href="index.html" id="home1"  class="link">Home</a></li>
+            <li><a href="About_us.html" id="About-us"class="link">About Us</a></li>
+        </ul>
+    </div>
+
+    <div id="home">
+        <div id="img1">
+            <img src="https://wallpaperaccess.com/full/139058.jpg" class="i1" >
+            <p class="typing-animation"></p>
+        </div>
+        <div id="img1">
+            <img src="https://wallpaperaccess.com/full/139071.jpg" class="i1" >
+        </div>
+        <div id="img1">
+            <img src="https://wallpaperaccess.com/full/654501.jpg" class="i1" >
+        </div>
+        <div id="img1">
+            <img src="https://wallpaperaccess.com/full/139155.jpg" class="i1">
+        </div>
+    </div>
+    <div id="bottomnav">
+        <img src="https://static.vecteezy.com/system/resources/previews/016/390/587/original/yoga-and-meditation-logo-free-png.png" id="logo1">
+        <ul id="bn">
+            <li><a href="#" id="a1"><p id="nm1">shravan</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png" id="insta"></a>
+            </li>
+            <li><a href="#" id="a1" ><p id="nm1">sarthak</p>
+                <img src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png" id="insta"></a>
+            </li>
+            <li><a href="#"   id="a1"><p id="nm1">siddharth</p>
+                <img src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png" id="insta">
+                </a>
+            </li>
+            <li>
+                
+                <a href="#" id="a1"><p id="nm1">atharv</p>
+                <img src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png" id="insta">
+                </a>
+            </li>
+                
+        </ul>
+        <p id="cr">CopyRight © 2024 Yog-Fit | ALL Right Reserved</p>
+    </div>
+    <script>
+        const texts = [
+            "Let's Do Yoga And Exercise With Our App!!!",
+        ];
+        const textElement = document.querySelector(".typing-animation");
+        let currentTextIndex = 0;
+        let currentCharIndex = 0;
+        const images = document.querySelectorAll(".i1");
+        let currentIndex = 0;
+
+        function showNextImage() {
+            images[currentIndex].style.opacity = 0;
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].style.opacity = 1;
+        }
+
+        for (let i = 1; i < images.length; i++) {
+            images[i].style.opacity = 0;
+        }
+
+        setInterval(showNextImage, 5500);
+
+        function typeText() {
+            if (currentCharIndex < texts[currentTextIndex].length) {
+                textElement.textContent += texts[currentTextIndex].charAt(currentCharIndex);
+                currentCharIndex++;
+                setTimeout(typeText, 100); 
+            } else {
+                currentTextIndex = (currentTextIndex + 1) % texts.length;
+                currentCharIndex = 0;
+                textElement.textContent = "";
+                setTimeout(typeText, 1000); 
+            }
+        }
+
+        typeText();
+    
+    </script>
+</body>
+</html>

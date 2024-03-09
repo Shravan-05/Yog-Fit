@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yog-Fit</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        #cont1
+        {
+height:300px;
+width: 300px;
+position: absolute;
+border-radius: 20px;
+        }
+        #cont2
+        {
+height:300px;
+width: 300px;
+position: absolute;
+border-radius: 20px;
+        }
+        #cont1:hover #content
+        {
+            transform: rotateY(180deg);
+        }
+     
+        #content{
+height:300px;
+width: 300px;
+position: absolute;
+transform-style: preserve-3d;
+transition: transform 0.8s;
+border-radius: 20px;
+
+        }
+        h1{
+            font-size: 30px;
+            text-align: center;
+        }
+        #font,#back{
+            position: absolute;
+height:300px;
+width: 300px;
+backface-visibility: hidden;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 20px;
+        }
+       #font img
+       {
+        height:300px;
+width: 300px;
+border-radius: 20px;
+
+       }
+      .c
+      {
+        color:white;
+        background-color:black;
+        transform: rotateY(180deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4vwc;
+    }
+      #pp
+      {
+        height:300px;
+width: 300px;
+margin: 3rem;
+      }
+
+      
+  #contain
+  {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid red;
+  }
+#logo1
+{
+    height: 70px;
+width:100px
+}
+  @media screen and (max-width:1000px) and (min-width:300px){
+    #contain
+  {
+    backdrop-filter: blur(2px);
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 20px;
+    align-items: center;
+    border: 1px solid red;
+    background-position: center
+
+  }
+  #pp
+  {
+    margin:2rem;
+    height: 250px;
+    width: 250px;
+  }
+
+  #cont1
+  {
+    height: 250px;
+    width: 250px;
+  }
+  #content
+  {
+    height: 250px;
+    width: 250px;
+  }
+  #font,#back
+  {
+    height: 250px;
+    width: 250px;
+  }
+  #font img{
+    height: 250px;
+    width: 250px;
+  }
+
+  }
+  #bottomnav
+{
+    margin-top: 2rem;
+    height: 25rem;
+    width: 100%;
+    border: 1px solid red;
+    background-color:rgb(66, 101, 124);
+    color: white;
+}
+
+#home
+{ height: 100vh;
+    width: 100%;
+    border: 1px solid rgb(0, 217, 255);
+}
+#cr
+{
+    font-size: 15px;
+    text-align: center;
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 1px solid red;
+}
+    </style>
+</head>
+<body>
+    <div id="Nav-bar">
+        <div id="img">
+            <img src="https://static.vecteezy.com/system/resources/previews/016/390/587/original/yoga-and-meditation-logo-free-png.png" id="logo">
+        </div>
+        <ul id="topnav">
+            <li><a href="index.html" id="home1"  class="link">Home</a></li>
+            <li><a href="About_us.html" id="About-us"class="link">About Us</a></li>
+        </ul>
+    </div>
+<h1>About Us</h1>
+<div id="contain">
+<div id="pp">
+    <div id="cont1">
+        <div id="content">
+            <div id="font"class="c1">
+                <img src="Assests/Atharv.jpg">
+            </div>
+            <div id="back" class="c">
+                <h1>Back-End Developer</h1>
+            </div>
+        </div>                
+    </div>
+</div>
+<div id="pp">
+    <div id="cont1">
+        <div id="content">
+            <div id="font"class="c1">
+                <img src="Assests/shravan.jpg">
+            </div>
+            <div id="back" class="c">
+                <h1>Front-End Developer</h1>
+            </div>
+        </div>                
+    </div>
+</div>
+<div id="pp">
+    <div id="cont1">
+        <div id="content">
+            <div id="font"class="c1">
+                <img src="Assests/siddz.jpg">
+            </div>
+            <div id="back" class="c">
+                <h1>Front-End Designer</h1>
+            </div>
+        </div>                
+    </div>
+</div>
+<div id="pp">
+    <div id="cont1">
+        <div id="content">
+            <div id="font"class="c1">
+                <img src="Assests/sarthak.jpg">
+            </div>
+            <div id="back" class="c">
+                <h1>Database Administrator</h1>
+            </div>
+        </div>                
+    </div>
+</div>
+</div>
+<div id="bottomnav">
+    <img src="https://static.vecteezy.com/system/resources/previews/016/390/587/original/yoga-and-meditation-logo-free-png.png" id="logo1">
+    <ul id="bn">
+        <li><a href="#" id="a1"><p id="nm1">shravan</p>
+        <img src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png" id="insta"></a>
+        </li>
+        <li><a href="#" id="a1" ><p id="nm1">sarthak</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png" id="insta"></a>
+        </li>
+        <li><a href="#"   id="a1"><p id="nm1">siddharth</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png" id="insta">
+            </a>
+        </li>
+        <li>
+            
+            <a href="#" id="a1"><p id="nm1">atharv</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png" id="insta">
+            </a>
+        </li>
+            
+    </ul>
+    <p id="cr">CopyRight © 2024 Yog-Fit | ALL Right Reserved</p>
+</div>
+    </body>
